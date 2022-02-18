@@ -1,6 +1,6 @@
 
 import 'package:get/get.dart';
-import 'package:getxflutter/home/home_conroller.dart';
+import 'package:getxflutter/pages/home/home_conroller.dart';
 
 class HomeBinding extends Bindings{
   @override

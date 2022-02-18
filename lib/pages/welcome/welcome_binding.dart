@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:getxflutter/welcome/welcome_controller.dart';
+import 'package:getxflutter/pages/welcome/welcome_controller.dart';
 
 class WelcomeBinding extends Bindings{
 
