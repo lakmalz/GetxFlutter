@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getxflutter/routes/app_pages.dart';
 import 'package:getxflutter/pages/welcome/welcome_screen.dart';
+import 'package:getxflutter/services/init_services.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await initServices();
   runApp(const MyApp());
 }
 
@@ -16,9 +19,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      
       getPages: AppPages.routes,
-      home: const WelcomeScreen(),
+      initialRoute: AppPages.INITIAL,
     );
   }
 }

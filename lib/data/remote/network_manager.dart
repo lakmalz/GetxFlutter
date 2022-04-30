@@ -30,7 +30,7 @@ Dio _getDioWithHeaders() {
   }
 
   _intercepterWrapper() {
-    return InterceptorsWrapper(
+    return QueuedInterceptorsWrapper(
       onRequest: (options, handler) async {
         // options.headers[HttpHeaders.authorizationHeader] =
         //     'Bearer ${getToken() ?? ''}';

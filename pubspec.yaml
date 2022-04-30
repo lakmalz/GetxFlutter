@@ -32,9 +32,10 @@ dependencies:
   dio: ^4.0.0
   retrofit: ^2.0.1
   get: ^4.2.4
-  get_storage: ^2.0.3
   sqflite: ^2.0.0+3
   dartz: ^0.10.0
+  get_storage: ^2.0.3
+  flutter_secure_storage: ^5.0.2
 
 
   # The following adds the Cupertino Icons font to your application.

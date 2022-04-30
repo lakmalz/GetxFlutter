@@ -3,7 +3,7 @@ import 'package:getxflutter/pages/welcome/welcome_controller.dart';
 
 class WelcomeBinding extends Bindings{
 
-@override
+  @override
   void dependencies() {
     Get.put(WelcomeController());
   }
